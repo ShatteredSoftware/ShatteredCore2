@@ -1,0 +1,20 @@
+name: "ShatteredCore"
+main: "com.github.shatteredsoftware.core.ShatteredCoreSpigot"
+version: "$version"
+authors:
+  - UberPilot
+libraries:
+  - "io.arrow-kt:arrow-core:$arrowVersion"
+  - "com.google.dagger:dagger:$daggerVersion"
+  - "org.jetbrains.exposed:exposed-core:$exposedVersion"
+  - "org.jetbrains.exposed:exposed-dao:$exposedVersion"
+  - "org.jetbrains.exposed:exposed-jdbc:$exposedVersion"
+  - "org.flywaydb:flyway-core:$flywayVersion"
+  - "com.zaxxer:HikariCP:$hikariVersion"
+  - "com.fasterxml.jackson.core:jackson-core:$jacksonVersion"
+  - "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
+  - "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
+  - "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:$jacksonVersion"
+  - "com.fasterxml.jackson.dataformat:jackson-dataformat-toml:$jacksonVersion"
+  - "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+  - "org.jetbrains.kotlin:kotlin-coroutines:$kotlinVersion"
